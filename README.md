@@ -1,4 +1,4 @@
-# Examen ATE 2eme session - 2CE-X75-B: application de contacts - React & Git
+# Examen ATE 2eme session - 2CE-X75-B
 
 ## Déboguer, refactorer une application React qui consomme une API
 
