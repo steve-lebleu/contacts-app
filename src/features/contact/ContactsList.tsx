@@ -67,7 +67,7 @@ export const ContactsList = () => {
   const contacts = data as Contact[];
   const totalPages = metadata.totalPages;
 
-  if (contacts.length === 0) return <Alert severity="warning">There are no contacts to display.</Alert>;
+ 
 
   return (
     <>
@@ -86,7 +86,6 @@ export const ContactsList = () => {
                 xs: '100%',
                 sm: '50%',
                 md: '33.33%',
-                lg: '17.5%'
               },
               position: 'relative'
             }}
