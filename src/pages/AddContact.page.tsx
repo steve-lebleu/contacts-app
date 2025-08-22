@@ -5,6 +5,8 @@ export const AddContactPage = () => {
     <>
       <h1>Add a new contact</h1>
 
+
+
       <ContactForm />
     </>
   )
