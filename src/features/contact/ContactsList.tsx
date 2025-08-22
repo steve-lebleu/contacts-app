@@ -67,7 +67,7 @@ export const ContactsList = () => {
   const contacts = data as Contact[];
   const totalPages = metadata.totalPages;
 
-  if (contacts.length === 0) return <Alert severity="warning">There are no contacts to display.</Alert>;
+ 
 
   return (
     <>
