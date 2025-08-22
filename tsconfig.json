@@ -1,0 +1,21 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./*"],
+      "@api/*": ["./src/api/*"],
+      "@auth": ["./src/features/auth"],
+      "@auth/*": ["./src/features/auth/*"],
+      "@components/*": ["./src/ui/components/*"],
+      "@features/*": ["./src/features/*"],
+      "@hooks/*": ["./src/ui/hooks/*"],
+      "@services/*": ["./src/services/*"],
+      "@services": ["./src/services"],
+      "@ui/*": ["./src/ui/*"]
+    }
+  }
+}

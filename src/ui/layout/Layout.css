@@ -1,0 +1,91 @@
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font: var(--mui-font-body1);
+}
+
+div#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  font: var(--mui-font-body1);
+}
+
+header, main, footer {
+  padding: var(--mui-spacing-2);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: var(--mui-palette-background-paper);
+  box-shadow: var(--mui-shadows-1);
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+
+  .MuiToolbar-root {
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    width: 90%;
+  }
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  padding: 20px 0;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+footer {
+  display: flex;
+  background-color: var(--mui-palette-background-paper);
+  justify-content: center;
+  box-shadow: var(--mui-shadows-1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--mui-spacing-2);
+  max-width: 360px;
+  width: 100%;
+  justify-items: center;
+}
+
+h1 {
+  font-family: 'Cal Sans', sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  color: var(--mui-palette-text-primary);
+  text-align: center;
+}
+
+.logo {
+  font-family: 'Cal Sans', sans-serif;
+  font-size: 2.77rem;
+  font-weight: 700;
+  color: var(--mui-palette-text-primary);
+  cursor: pointer;
+  text-align: center;
+}
+
+.logout  {
+  display: flex;
+  align-self: center;
+  cursor: pointer;
+  margin-left: auto;
+}
