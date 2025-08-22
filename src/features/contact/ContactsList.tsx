@@ -86,7 +86,6 @@ export const ContactsList = () => {
                 xs: '100%',
                 sm: '50%',
                 md: '33.33%',
-                lg: '17.5%'
               },
               position: 'relative'
             }}
